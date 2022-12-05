@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/drawable/ic_category.xml" value="0.1735" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/drawable/ic_course_java.xml" value="0.212" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/drawable/ic_course_python.xml" value="0.198" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/drawable/ic_java.xml" value="0.211" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/drawable/ic_python.xml" value="0.212" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/layout/activity_course_page.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/layout/activity_order_page.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/layout/category_item.xml" value="0.67" />
+        <entry key="..\:/Programming/Android/Course_App/app/src/main/res/layout/course_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

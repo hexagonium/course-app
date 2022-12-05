@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Course App</string>
+    <string name="desc_hot_deal">Горячие скидки</string>
+    <string name="menu_main">Главная</string>
+    <string name="menu_about_us">Про нас</string>
+    <string name="menu_contacts">Контакты</string>
+    <string name="header_course">Course</string>
+    <string name="header_app">App</string>
+    <string name="btn_basket">Корзина</string>
+    <string name="desc_filter">Фильтр</string>
+    <string name="desc_category">Категория</string>
+    <string name="course_tv_start_course">Старт \nобучения:</string>
+    <string name="course_tv_level">Уровень:</string>
+    <string name="course_page_add_to_basket">Добавить в корзину</string>
+    <string name="course_page_desc">Описание курса</string>
+    <string name="cart_tv">Корзина</string>
+</resources>
