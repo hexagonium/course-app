@@ -81,6 +81,7 @@
 
     <!-- Заголовок -->
     <TextView
+        android:id="@+id/header_course"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
@@ -89,10 +90,8 @@
         android:text="@string/header_course"
         android:textColor="@color/black"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/side"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -135,7 +134,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/course_recycler"
         android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:layout_height="330dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"

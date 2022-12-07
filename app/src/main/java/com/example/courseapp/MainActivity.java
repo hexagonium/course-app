@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
         courseList = new ArrayList<>();
         courseList.add(new CourseModel(1, ID_COURSE_CATEGORY_LANGUAGES, "Профессия Java разработчик", "java", "01.09.22", "начальный", "#424345", javaDesc));
         courseList.add(new CourseModel(2, ID_COURSE_CATEGORY_LANGUAGES, "Продвинутый Python разработчик", "python", "01.11.22", "продолжающий", "#9FA52D", pythonDesc));
-        courseList.add(new CourseModel(3, ID_COURSE_CATEGORY_GAMES, "Профессия Unity разработчик", "unity", "01.08.22", "начинающий", "#f44336", unityDesc));
-        courseList.add(new CourseModel(4, ID_COURSE_CATEGORY_OTHER, "Профессия C++ разработчик", "cpp", "24.10.22", "начинающий", "#007aaa", cppDesc));
-        courseList.add(new CourseModel(5, ID_COURSE_CATEGORY_SITES, "Профессия Front-End разработчик", "front_end", "14.07.22", "начинающий", "#ea6a45", frontEndDesc));
-        courseList.add(new CourseModel(6, ID_COURSE_CATEGORY_SITES, "Продвинутый Full-Stack разработчик", "node_js", "3.09.22", "продолжающий", "#fff112", nodeJsDesc));
+        courseList.add(new CourseModel(3, ID_COURSE_CATEGORY_GAMES, "Профессия Unity разработчик", "unity", "01.08.22", "начинающий", "#F44336", unityDesc));
+        courseList.add(new CourseModel(4, ID_COURSE_CATEGORY_COURSES, "Профессия C++ разработчик", "cpp", "24.10.22", "начинающий", "#004E6D", cppDesc));
+        courseList.add(new CourseModel(5, ID_COURSE_CATEGORY_SITES, "Профессия Front-End разработчик", "front_end", "14.07.22", "начинающий", "#F44336", frontEndDesc));
+        courseList.add(new CourseModel(6, ID_COURSE_CATEGORY_SITES, "Продвинутый Full-Stack разработчик", "node_js", "3.09.22", "продолжающий", "#E5D810", nodeJsDesc));
 
         fullCourseList = new ArrayList<>();
         fullCourseList.addAll(courseList);

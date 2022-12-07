@@ -9,9 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.courseapp.CoursePageActivity;
@@ -72,14 +74,14 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.CourseView
     }
 
     public static final class CourseViewHolder extends RecyclerView.ViewHolder {
-        LinearLayout courseBg;
+        RelativeLayout courseBg;
         ImageView courseImg;
         TextView courseTitle, courseDate, courseLevel;
 
         public CourseViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            courseBg = (LinearLayout) itemView.findViewById(R.id.course_bg);
+            courseBg = (RelativeLayout) itemView.findViewById(R.id.course_bg);
             courseImg = (ImageView) itemView.findViewById(R.id.course_img);
             courseTitle = (TextView) itemView.findViewById(R.id.course_title);
             courseDate = (TextView) itemView.findViewById(R.id.course_date);
