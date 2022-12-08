@@ -1,5 +1,6 @@
 package com.example.courseapp.model;
 
+// Класс, описывающий карточки курсов на главной странице
 public class CourseModel {
     private int id, category;
     private String title, img, date, level, color, desc;

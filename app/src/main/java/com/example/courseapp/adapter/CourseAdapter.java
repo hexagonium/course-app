@@ -31,6 +31,7 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.CourseView
         this.courses = courses;
     }
 
+    // Установка дизайна карточек курсов
     @NonNull
     @Override
     public CourseViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -38,8 +39,10 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.CourseView
         return new CourseAdapter.CourseViewHolder(courseItems);
     }
 
+    // Установка данных карточек курсов и обработка нажатий по ним для перехода на экран нажатого курса
     @Override
     public void onBindViewHolder(@NonNull CourseViewHolder holder, @SuppressLint("RecyclerView") int position) {
+        // Установка данных
         holder.courseBg.setBackgroundColor(Color.parseColor(courses.get(position).getColor()));
 
         int imgId = context.getResources().getIdentifier("ic_" + courses.get(position).getImg(), "drawable", context.getPackageName());
@@ -49,7 +52,7 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.CourseView
         holder.courseDate.setText(courses.get(position).getDate());
         holder.courseLevel.setText(courses.get(position).getLevel());
 
-        // При нажатии на карточку курса, запускается страница курса и передаются соответствующие данные
+        // При нажатии на карточку курса, запускается экран курса и передаются соответствующие данные
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

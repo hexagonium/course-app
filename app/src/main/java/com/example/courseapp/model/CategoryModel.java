@@ -1,5 +1,6 @@
 package com.example.courseapp.model;
 
+// Класс, описывающий категории фильтра курсов на главной странице
 public class CategoryModel {
 
     private int id;

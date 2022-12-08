@@ -12,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <!-- Картника -->
         <ImageView
             android:id="@+id/course_page_img"
             android:layout_width="match_parent"
@@ -19,6 +21,8 @@
             android:src="@drawable/ic_java"
             android:scaleType="centerCrop"/>
 
+
+        <!-- Заголовок -->
         <TextView
             android:id="@+id/course_page_title"
             android:layout_width="wrap_content"
@@ -32,6 +36,8 @@
             android:textColor="@color/white"
             android:letterSpacing="0.03"/>
 
+
+        <!-- Строка статичных TextView -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,8 +71,11 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+        <!-- Строка динамичных TextView -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,8 +110,11 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+        <!-- Описание курса -->
         <TextView
             android:id="@+id/course_page_desc"
             android:layout_width="wrap_content"
@@ -113,6 +125,8 @@
             android:fontFamily="@font/montserrat"
             android:textSize="14sp"/>
 
+
+        <!-- Кнопка для добавления данного курса в корзину -->
         <Button
             android:id="@+id/course_page_add_to_basket"
             android:layout_width="wrap_content"
@@ -132,6 +146,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/side" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

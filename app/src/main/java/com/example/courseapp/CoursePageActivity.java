@@ -30,6 +30,7 @@ public class CoursePageActivity extends AppCompatActivity {
         coursePageLevel = (TextView) findViewById(R.id.course_page_level);
         coursePageDesc = (TextView) findViewById(R.id.course_page_desc);
 
+        // Получаем данные карточки курса на главном экране из интента и устанавливаем их в элементы экрана курса
         coursePageBg.setBackgroundColor(getIntent().getIntExtra("course_page_bg", 0));
         coursePageImg.setImageResource(getIntent().getIntExtra("course_page_img", 0));
         coursePageTitle.setText(getIntent().getStringExtra("course_page_title"));
@@ -37,6 +38,7 @@ public class CoursePageActivity extends AppCompatActivity {
         coursePageLevel.setText(getIntent().getStringExtra("course_page_level"));
         coursePageDesc.setText(getIntent().getStringExtra("course_page_desc"));
 
+        // Кнопка для добавления данного курса в корзину
         addToCart = (Button) findViewById(R.id.course_page_add_to_basket);
         addToCart.setOnClickListener(new View.OnClickListener() {
             @Override
